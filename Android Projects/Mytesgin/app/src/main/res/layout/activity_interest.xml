@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".interest">
+
+
+       <EditText
+        android:id="@+id/edjobtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Title"
+        android:inputType="textPersonName"
+        android:layout_weight="1"
+
+        />
+
+    <EditText
+        android:id="@+id/edjobdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Job Desc"
+        android:layout_weight="1"
+
+        />
+
+    <EditText
+        android:id="@+id/edjobqualifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Qualifications"
+        android:layout_weight="1"
+
+        />
+
+    <EditText
+        android:id="@+id/edjobrequir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Job Requirment"
+        android:layout_weight="1"
+
+        />
+
+    <EditText
+        android:id="@+id/edjobrespon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_weight="1"
+        android:hint="Responsibilities"
+        />
+    <CheckBox
+        android:id="@+id/chit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="IT" />
+
+    <CheckBox
+        android:id="@+id/chpharmacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pharmacy" />
+
+    <CheckBox
+        android:id="@+id/chnutrition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nutrition" />
+
+    <CheckBox
+        android:id="@+id/chbusiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Business" />
+
+    <CheckBox
+        android:id="@+id/chgraphics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Graphics" />
+
+    <Button
+        android:id="@+id/btsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Submit" />
+
+
+
+</LinearLayout>
